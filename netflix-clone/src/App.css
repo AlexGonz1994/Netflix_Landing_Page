@@ -1,0 +1,26 @@
+
+
+div{
+    background-color: black;
+}
+
+.center{
+    text-align: center;
+}
+
+.App{
+    color: white;
+}
+
+.mainHeader{
+    background-image: url("../src//img/Netflix-Background.jpg");
+    background-size: 100%;
+}
+
+.netflixLogo{
+    width: 10%;
+}
+
+.onlyon{
+    width: 30%
+}
