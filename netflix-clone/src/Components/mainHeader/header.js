@@ -10,14 +10,17 @@ function mainHeader(){
     return(
         <div className="mainHeader">
             <img src={NetflixLogo} className="netflixLogo"/>
-            <Button color="danger">Sign in</Button>
-            <h1>Unlimited movies, TV shows, and more.</h1>
-            <p>Watch anywhere. Cancel anytime.</p>
-            <p>Ready to watch? Enter your email to create ro restart your membership.</p>
-            <form>
-                <input type="text" name="email" placeholder="Email address"></input> 
-                <Button color="danger">GET STARTED</Button>
-            </form>
+            <Button color="danger" className="buttonPush">Sign in</Button>
+            <p className="mainHeaderP">
+                <h1>Unlimited movies, TV <br/>shows, and more.</h1>
+                <p className="heavyP">Watch anywhere. Cancel anytime.</p>
+                <p>Ready to watch? Enter your email to create ro restart your membership.</p>
+                <form>
+                    <input type="text" name="email" placeholder="Email address"></input> 
+                    <Button color="danger">GET STARTED</Button>
+                </form>
+            </p>
+           
 
             <Card>
                 <Mid01/>

@@ -160,3 +160,17 @@ p.changeFont{
 .moving{
     padding-left: 30%;
 }
+
+.mainHeaderP{
+    margin-left: 35%;
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+
+.heavyP{
+    font-weight: bolder;
+}
+
+.buttonPush{
+    margin-left: 80%;
+}
