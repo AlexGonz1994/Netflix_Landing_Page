@@ -1,26 +1,162 @@
-
+.App{
+    width: 100%;
+    margin: 0 auto;
+    color: white;
+}
 
 div{
     background-color: black;
+}
+
+ @font-face{
+    font-family: 'Netflix';
+    src: url(fonts/Netflix\ Sans\ Light.otf);
+        font-weight: 100;
+}
+
+@font-face{
+    font-family: "Netflix-Bold";
+    src: url(fonts/Netflix\ Sans\ Bold.otf)
+} 
+
+.netflixLogo{
+    width: 10%;
+}
+
+h1{
+    font-family: 'Netflix';
+    font-weight: 'Heavy';
+    font-size: 40px;
+    font-family: "Netflix-Bold";
+}
+
+p{
+    font-size: 1.625rem;
+    font-family: 'Netflix';
+    font-weight: 400; 
+ }
+
+.button{
+    background-color: black;
+    color: white;
+    font-family: "Netflix";
+    font-size: 26px;
+    border-style: solid;
+   margin-left: 35%;
+   margin-right: 35%;
+   background-color: grey;
+}
+
+.buttonopen{
+    border-style: solid;
+    margin-left: 35%;
+    margin-right: 35%;
+    background-color: grey;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+.button:hover{
+    cursor: pointer;
 }
 
 .center{
     text-align: center;
 }
 
-.App{
-    color: white;
+
+.main01{
+    display: flex;
+    padding: 5%;
+    padding-left: 20%;
 }
+
+
+.onlyon{
+    width: 30%;
+    padding-left: 5%;
+}
+
 
 .mainHeader{
     background-image: url("../src//img/Netflix-Background.jpg");
     background-size: 100%;
 }
 
-.netflixLogo{
-    width: 10%;
+
+
+.downloadtext{
+    display: flex;
+    flex-direction: column;
 }
 
-.onlyon{
-    width: 30%
+.download{
+    max-height: 300;
+    max-width: 500px;
+    margin-left: 2%;
+    position: relative;
+    top: 100px;
+    left: 150px;
+}
+
+.downloadtext{
+    margin-left: 18%;
+}
+
+.pleasemove{
+    position: relative;
+    bottom: 150px;
+    margin-left: 8%
+}
+
+.devicepara{
+    position: relative;
+    top: 150px;
+}
+
+.spacing{
+    margin-top: 10px;
+}
+
+.emailInput{
+    height: 50px;
+    width: 300px;
+    margin-bottom: 10px;
+
+}
+
+.getStarted{
+    height: 50px;
+    width: 250px;
+    margin-bottom: 5px;
+}
+
+p.changeFont{
+    font-size: 30px;
+}
+
+.footer{
+    color: grey;
+}
+
+.display{
+    color: grey;
+    margin-left: 25px;
+    font-size: 15px;
+}
+
+.display:hover{
+    color: grey;
+}
+
+.flex1{
+    display: flex;
+
+}
+
+.moving{
+    padding-left: 30%;
 }

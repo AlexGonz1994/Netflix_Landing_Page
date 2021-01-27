@@ -34,8 +34,8 @@ function Mid04(){
            <h1>Frequently Asked Questions</h1>
            <ul>
                <li>
-               <button onClick={toggler}>What is Netflix?</button>
-           {toggle ? <span>
+               <div onClick={toggler} className="button">What is Netflix?</div>
+           {toggle ? <div className="buttonopen">
             <p>Netflix is a streaming service that offers a wide variety of 
                 award-winning TV shows, movies, anime, documentaries, 
                 and more on thousands of internet-connected devices.</p>
@@ -43,22 +43,22 @@ function Mid04(){
                 without a single commercial – all for one low monthly price. 
                 There's always something new to 
                 discover and new TV shows and movies are added every week!</p>
-           </span> : <span></span>} 
+           </div> : <span></span>} 
                </li>
 
-               <li>
-               <button onClick={toggler2}>How much does Netflix cost?</button>
-            {toggle2 ? <span>
+               <li className="spacing">
+               <div onClick={toggler2} className="button">How much does Netflix cost?</div>
+            {toggle2 ? <div className="buttonopen">
                 <p>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or 
                     streaming device, all for one fixed monthly fee. 
                     Plans range from $8.99 to $17.99 a month. No extra costs, 
                     no contracts.</p>
-            </span> : <span></span>}
+            </div> : <span></span>}
                </li>
 
-               <li>
-               <button onClick={toggler3}>Where can I watch?</button>
-            {toggle3 ? <span>
+               <li className="spacing">
+               <div onClick={toggler3} className="button">Where can I watch?</div>
+            {toggle3 ? <div className="buttonopen">
                 <p>Watch anywhere, anytime, on an unlimited number of devices. 
                     Sign in with your Netflix account to watch instantly on the web at netflix.com 
                     from your personal computer or on any internet-connected device that 
@@ -68,34 +68,36 @@ function Mid04(){
                         or Windows 10 app. Use downloads to watch while you're on the go and 
                         without an internet connection. 
                         Take Netflix with you anywhere.</p>
-            </span> : <span/>}
+            </div> : <span/>}
                </li>
 
-               <li>
-               <button onClick={toggler4}>How do I cancel?</button>
-            {toggle4 ? <span>
+               <li className="spacing">
+               <div onClick={toggler4} className="button">How do I cancel?</div>
+            {toggle4 ? <div className="buttonopen">
                 <p>Netflix is flexible. There are no pesky contracts and no commitments. 
                     You can easily cancel your account online in two clicks. 
                     There are no cancellation fees – start or stop your account anytime.</p>
-            </span> : <span/>}
+            </div> : <span/>}
                </li>
 
-               <li>
-               <button onClick={toggler5}>What can I watch on Netflix?</button>
-            {toggle5 ? <span>
+               <li className="spacing">
+               <div onClick={toggler5} className="button">What can I watch on Netflix?</div>
+            {toggle5 ? <div className="buttonopen">
                 <p>
                 Netflix has an extensive library of feature films, documentaries, 
                 TV shows, anime, award-winning Netflix originals, and more. 
                 Watch as much as you want, anytime you want.
                 </p>
-            </span> : <span/>}
+            </div> : <span/>}
                </li>
            </ul>
            
                 <div>
-                <p>Ready to watch? Enter your email to create or restart your membership.</p>
-                <input type="text" name="email" placeholder="Email Address"/>
-                <Button>Get Started ></Button>
+                <p className="ready">Ready to watch? Enter your email to create or restart your membership.</p>
+                <input type="text" name="email" placeholder="Email Address" className="emailInput"/>
+                <Button color="danger" className="getStarted">
+                    <p>GET STARTED</p>
+                </Button>
                 </div>
 
         </div>

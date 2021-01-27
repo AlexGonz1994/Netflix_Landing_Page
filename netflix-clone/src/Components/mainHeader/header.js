@@ -23,7 +23,7 @@ function mainHeader(){
                 <Mid01/>
             </Card>
 
-            <Card>
+            <Card className="cardWidth">
                 <Mid02/>
             </Card>
 

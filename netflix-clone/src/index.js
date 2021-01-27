@@ -4,6 +4,7 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.css';
+import "./fonts/BebasNeue.otf"
 ReactDOM.render(
   <React.StrictMode>
     <App />
